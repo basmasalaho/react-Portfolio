@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Project from './pages/Project';
+import Project from './Pages/Project';
 import Communicate from './Pages/Communicate';
 
 import './i18n';
