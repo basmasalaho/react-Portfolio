@@ -6,8 +6,8 @@ const LanguageSwitch = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
-    { code: 'ar', name: 'عربي', dir: 'rtl' },
-    { code: 'en', name: 'English', dir: 'ltr' },
+    { code: 'ar', name: 'الإنجليزية', dir: 'rtl' },
+    { code: 'en', name: 'Arabic', dir: 'ltr' },
   
   ];
 

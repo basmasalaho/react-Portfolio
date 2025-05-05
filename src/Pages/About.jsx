@@ -14,7 +14,7 @@ const About = () => {
       <section className="about-section">
         <div className="about-content">
           <div className="about-text">
-            <p>{t('about.greeting')}</p>
+            <p className='Name'>{t('about.greeting')}</p>
             <p>{t('about.description')}</p>
           </div>
           <div className="about-image">

@@ -23,7 +23,7 @@
   }
   
   .contact-icon {
-    color: var(--background-color);
+    color: var(--icon-color);
   
     border-radius: 50%;
     width: 42px;
@@ -35,12 +35,12 @@
   
   .contact-text, .contact-link {
     font-size: 24px;
-    color: var(--background-color);
+    color: var(--primary-light);
     font-family: Arial, sans-serif;
   }
   
   .contact-link {
-    color:var(--background-color);
+    color:var(--primary-light);
     text-decoration: underline;
     transition: color 0.2s;
   }
