@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "about": "About",
+    "project": "Projects",
+    "communicate": "Contact",
+    "Home": "Home"
+  },
+ "about": {
+  "title": "About Me",
+  "greeting": "Hello! I'm Basma Salaho",
+  "description": "I am an Information Engineer and a student at a technical computer institute. I am passionate about front-end development and user experience, and I love building modern, responsive, and user-friendly websites. I have experience in HTML, CSS, JavaScript, and React, and I always strive to improve my skills and contribute to outstanding tech projects."
+},
+
+  "project": {
+    "title": "Projects",
+    "project1_title": "Project 1",
+    "project1_desc": "I designed and developed a personal portfolio website using HTML and CSS to showcase my skills, projects, and information in a professional manner. The website features a responsive design, an elegant interface, and smooth navigation that provides a distinctive user experience across various devices.",
+    "project2_title": "Project 2",
+    "project2_desc": "This is a description for Project 2. You can change this text to describe your second project, its features, technologies used, and any other relevant information.",
+    "project3_title": "Project 3",
+    "project3_desc": "I developed a simple project using React and the useEffect hook to manage data loading and interactions within the application. I used useEffect to fetch data when the app starts and to dynamically update components, which helped improve the user experience and made the app more interactive."
+  },
+  "communicate": {
+    "title": "Contact",
+    "location": "Idlib, Aleppo",
+    "phone": "Phone Number",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "address_label": "Address",
+    "phone_label": "Phone Number",
+    "email_label": "Email",
+    "social_label": "Social Links"
+  },
+  "Home": {
+    "cv": "Download CV",
+    "link": "Link",
+    "title": "Home",
+    "name": "Basma Salaho",
+    "role": "Information Engineer",
+    "subtitle": "Front End Developer"
+  },
+  "button": {
+    
+    "link": "Link"
+  }
+}
