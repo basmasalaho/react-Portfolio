@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import content from '../assets/images/Content.png';
 import '../styles/Communicate.css';
+import '../styles/variables.css';
 import Layout from '../layout/home_layout';
 
 const Communicate = () => {
@@ -10,10 +11,10 @@ const Communicate = () => {
 
   return (
     <Layout>
-    <div>
+    <div className='container'>
       <h2 className="page-title">{t('communicate.title')}</h2>
-      <section className="communicate-section">
-        <div className="contact-grid">
+      <section className="section">
+        
           <div className="contact-info">
             <div className="contact-row">
               <span className="contact-icon"><FaMapMarkerAlt size={32} /></span>
@@ -39,7 +40,7 @@ const Communicate = () => {
           <div className="contact-image">
             <img src={content} alt="person" />
           </div>
-        </div>
+       
       </section>
     </div>
     </Layout>

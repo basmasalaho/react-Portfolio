@@ -2,6 +2,7 @@ import Logo from '../assets/images/logo.png';
 import React from 'react';
 import { useTranslation } from 'react-i18next'; 
 import '../styles/Home.css';
+import '../styles/variables.css';
 import Layout from '../layout/home_layout';
 
 const Home = () => {
@@ -9,9 +10,10 @@ const Home = () => {
 return(
    <Layout>
     <>
+    <div className='container'>
     <h2 className="page-title">{t('nav.Home')}</h2>
-        <section className="hero-section">
-                <div className="text-content">
+        <section className="section">
+            <div className="text-content">
                 <h1>{t('Home.name')}</h1>
                 <div className="subtitle">
                     <p>{t('Home.role')}</p>
@@ -25,14 +27,14 @@ return(
                 >
                   {t('Home.cv')}
                 </a>
-                </div>
-                <div className="logo-container">
+            </div>
+            <div className="logo-container">
                 <img src={Logo} alt="Profile" className="logo-image" />
-                </div>
-            </section>
-
+            </div>
+         </section>
+         </div>
       </>
-      </Layout>
+    </Layout>
 );
 }
 

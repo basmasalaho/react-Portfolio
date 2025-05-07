@@ -1,15 +1,5 @@
 
-.hero-section {
-   
-  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1,1fr);
-    align-items: center;
-    gap: 60px;
-    
-  }
-  
+
   .text-content {
     text-align: center;
     color:var(--primary-light);
@@ -63,13 +53,7 @@
   }
 
   @media (max-width: 768px) {
-    .hero-section {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      gap: 40px;
-      text-align: center;
-    }
-  
+    
     .logo-container {
       margin: 0 auto;
       justify-content: center;

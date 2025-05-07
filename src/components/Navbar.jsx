@@ -23,10 +23,10 @@ const Navbar = () => {
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>         
           <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
-          <Link to="/Home" onClick={() => setIsOpen(false)}>{t('nav.Home')}</Link>
-            <Link to="/about" onClick={() => setIsOpen(false)}>{t('nav.about')}</Link>
-            <Link to="/project" onClick={() => setIsOpen(false)}>{t('nav.project')}</Link>
-            <Link to="/communicate" onClick={() => setIsOpen(false)}>{t('nav.communicate')}</Link>
+           <Link to="/" >{t('nav.Home')}</Link>
+            <Link to="/about" >{t('nav.about')}</Link>
+            <Link to="/project" >{t('nav.project')}</Link>
+            <Link to="/communicate" >{t('nav.communicate')}</Link>
             <LanguageSwitch />
           </div>
         </div>

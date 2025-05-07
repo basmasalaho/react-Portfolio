@@ -4,6 +4,7 @@ import project1 from '../assets/images/project1.png';
 import project2 from '../assets/images/project2.png'; 
 import project3 from '../assets/images/project3.png'; 
 import '../styles/Project.css';
+import '../styles/variables.css';
 import Layout from '../layout/home_layout';
 
 const projects = [
@@ -30,10 +31,12 @@ const Project = () => {
   return (
     <Layout>
     <div>
-      {projects.map((proj, idx) => ( 
+      
+      {projects.map((proj) => ( 
        <>
+       <div className='container'>
           <h2 className="page-title">{t(proj.titleKey)}</h2>
-          <section className="project-section">
+          <section className="section">
             <div className="project-content">
               <p className="project-description">
                 {t(proj.descKey)}
@@ -46,6 +49,7 @@ const Project = () => {
               <img src={proj.image} alt="" className="project1" />
             </div>
           </section>
+          </div>
           </>     
       ))}
     </div>
